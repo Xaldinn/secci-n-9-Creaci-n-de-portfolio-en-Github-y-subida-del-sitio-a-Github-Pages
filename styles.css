@@ -17,3 +17,6 @@ main {
     flex-wrap: nowrap;
     align-content: center;
 }
+.greeting {
+    text-align: center;
+}
