@@ -1,0 +1,65 @@
+h1 {
+    color: red;
+    background-color: black;
+    font-family: Impact;
+    font-size: 70px;
+}
+
+h2 {
+    color: yellow;
+    background-color: blue;
+    font-family: Arial;
+    font-size: 40px;
+}
+
+p {
+    color: white;
+    background-color: red;
+    font-family: 'Comic Sans MS';
+    font-size: 20px;
+}
+.box {
+    background-color: lightgrey;
+    width: 200px;
+    height: 150px;
+    border: solid black;
+    padding: 20px;
+    margin: 5px;
+}
+.box2 {
+    color: red;
+    background-color: black;
+    width: 100px;
+    height: 50px;
+    border: solid red;
+    padding: 20px;
+    margin: 5px;
+}
+.box3 {
+    color: yellow;
+    background-color: blue;
+    width: 100px;
+    height: 50px;
+    border: solid yellow;
+    padding: 20px;
+    margin: 5px;
+}
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+.column {
+    flex: 1;
+    padding: 10px;
+}
+@media (max-width: 600px) {
+    .column {
+        flex: 100%;
+    }
+}
